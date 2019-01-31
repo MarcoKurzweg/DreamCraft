@@ -24,14 +24,14 @@ GameObject:
   - component: {fileID: 65179714433251764}
   - component: {fileID: 114067943608876130}
   - component: {fileID: 114619008274056686}
-  - component: {fileID: 114920910742050918}
+  - component: {fileID: 114530877530683896}
   m_Layer: 0
   m_Name: DirtBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4914211879705644
 Transform:
   m_ObjectHideFlags: 1
@@ -110,6 +110,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20745b2f43239284dbdb566c5321f1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114530877530683896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556648228678196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01589d342f74f2246bc3a2ac7ec8faf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Dirt
+  Sprite: {fileID: 21300000, guid: ecd848425f9bdad45953d892ca30422d, type: 3}
+  health: 100
 --- !u!114 &114619008274056686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -122,15 +136,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTime: 0
---- !u!114 &114920910742050918
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1556648228678196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1bb04098c32a3a48bc3b43eaff9dea3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Dirt

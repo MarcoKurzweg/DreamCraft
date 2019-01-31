@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Item : MonoBehaviour {
 	public string name;
-	public Sprite srite;
-	public void Use() {
-
-	}
-
+	public Sprite Sprite;
+	public int health;
 
 	
 }

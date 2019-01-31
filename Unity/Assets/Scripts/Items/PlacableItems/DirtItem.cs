@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DirtItem : PlacableItem {
-	public int health = 100;
+	private void Start() {
+		health = 100;
+	}
 	// Use this for initialization
 	
 }

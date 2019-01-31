@@ -16,11 +16,18 @@ public class BlockScript : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        Destroy(this.gameObject);
+		//left-click
+		if (Input.GetMouseButtonDown(0)) {
+			Destroy(this.gameObject);
+		//right-click
+		} else if(Input.GetMouseButtonDown(1)) {
+
+		}
+        
     }
 
 	private void OnMouseOver() 
 	{
-		Debug.Log("Hi");
+		
 	}
 }
