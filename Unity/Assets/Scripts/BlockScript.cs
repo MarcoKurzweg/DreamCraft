@@ -18,4 +18,9 @@ public class BlockScript : MonoBehaviour {
     {
         Destroy(this.gameObject);
     }
+
+	private void OnMouseOver() 
+	{
+		Debug.Log("Hi");
+	}
 }
